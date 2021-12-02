@@ -1,3 +1,7 @@
+# VGG-19 model for Diagnosis of Malaria using blood cells
+# @pradeep July 2021
+
+
 ###############################################################################################################
 from google.colab import drive
 drive.mount('/content/drive')
@@ -165,6 +169,7 @@ y_pred = np.argmax(y_pred, axis=1)
 
 
 ###############################################################################################################
+#prediction of malaria cell 
 import cv2
 import matplotlib.pyplot as plt
 from keras.models import load_model
